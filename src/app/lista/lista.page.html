@@ -1,0 +1,207 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons [routerLink]="['/home']" slot="start">
+        <ion-back-button default-href="#"></ion-back-button>
+      </ion-buttons>
+    <ion-title>Paises de America</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img alt="Estados Unidos" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" />
+    <ion-card-header>
+      <ion-card-title>Estados Unidos</ion-card-title>
+      <ion-card-subtitle>America del Norte</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      EE. UU. está compuesto por 50 estados y tiene una superficie total de 9.629,101 kilómetros cuadrados, lo que lo convierte en el tercer estado más grande del mundo. Al este del continente americano se encuentra el océano Atlántico y al oeste el océano Pacífico.
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg',
+      nombre: 'Estados Unidos',
+      localizacion: 'America del Norte',
+      capital: 'Washington'
+    }
+  ">Ver más</ion-button>
+  </ion-card>
+  <ion-card>
+    <img alt="Canada" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" />
+    <ion-card-header>
+      <ion-card-title>Canada</ion-card-title>
+      <ion-card-subtitle>America del Norte</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Nombre oficial: Canadá Superficie: 9.984.670 km2 Límites: Se encuentra situado al extremo norte del continente americano. Limita al sur con Estados Unidos, al norte con el Océano Glaciar Ártico, al este con el Océano Atlántico, y al oeste con el Océano Pacífico y Esta- dos Unidos (Alaska)
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png',
+      nombre: 'Canada',
+      localizacion: 'America del Norte',
+      capital: 'Ottawa'
+    }
+  ">Ver más</ion-button>
+
+  </ion-card>
+  <ion-card>
+    <img alt="México" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png" />
+    <ion-card-header>
+      <ion-card-title>Mexico</ion-card-title>
+      <ion-card-subtitle>America Central</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Es el décimo cuarto país más extenso del mundo, con una superficie cercana a los 2 millones de kilómetros cuadrados. Es el undécimo país más poblado del mundo, con una población de aproximadamente 118 millones de habitantes. La lengua materna es el español, que convive junto con 67 lenguas indígenas.
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png',
+      nombre: 'Mexico',
+      localizacion: 'America del Norte',
+      capital: 'Ciudad de Mexico'
+    }
+  ">Ver más</ion-button>
+  </ion-card>
+  <ion-card>
+    <img alt="Argentina" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png" />
+    <ion-card-header>
+      <ion-card-title>Argentina</ion-card-title>
+      <ion-card-subtitle>America del Sur</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Tiene una superficie casi seis veces la de España y su relieve es predominantemente llano excepto al oeste del país, a lo largo de la cordillera de los Andes donde se alcanzan las mayores altitudes de América (Aconcagua 6.960 metros). Es el segundo país más extenso de América del Sur y el octavo del mundo.
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png',
+      nombre: 'Argentina',
+      localizacion: 'America del Sur',
+      capital: 'Buenos Aires'
+    }
+  ">Ver más</ion-button>
+
+  </ion-card>
+  <ion-card>
+    <img alt="Colombia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1200px-Flag_of_Colombia.svg.png" />
+    <ion-card-header>
+      <ion-card-title>Colombia</ion-card-title>
+      <ion-card-subtitle>America del Sur</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Colombia se ubica en el extremo noroccidental de América del Sur, con una superficie de 1.141.748 Km2, tiene costas en el Pacífico y en el Atlántico. Atravesada de Sur a Norte por los Andes que, cerca de la frontera meridional se dividen en tres ramales: cordilleras Occidental, Central y Oriental.
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1200px-Flag_of_Colombia.svg.png',
+      nombre: 'Colombia',
+      localizacion: 'America del Sur',
+      capital: 'Bógota'
+    }
+  "
+  >Ver más</ion-button>
+  </ion-card>
+  <ion-card>
+    <img alt="Peru" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/1200px-Flag_of_Peru.svg.png" />
+    <ion-card-header>
+      <ion-card-title>Peru</ion-card-title>
+      <ion-card-subtitle>America del Sur</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Perú está ubicado en la parte occidental de América del Sur y comparte sus fronteras con Ecuador, Colombia, Brasil, Bolivia y Chile. En su vasto territorio, de más de 1.2 millones de km², abarca tres regiones: Costa, Sierra y Selva. Su población actual supera los 31.5 millones de habitantes.
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/1200px-Flag_of_Peru.svg.png',
+      nombre: 'Perú',
+      localizacion: 'America del Sur',
+      capital: 'Lima'
+    }
+  ">Ver más</ion-button>
+
+  </ion-card>
+  <ion-card>
+    <img alt="Venezuela" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/1200px-Flag_of_Venezuela.svg.png" />
+    <ion-card-header>
+      <ion-card-title>Venezuela</ion-card-title>
+      <ion-card-subtitle>America del Sur</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Venezuela, de nombre oficial República Bolivariana de Venezuela, es una nación soberana latinoamericana, ubicada al norte del continente suramericano. Es un país petrolero, culturalmente orientado hacia el Caribe y con un altísimo margen de sincretismo cultural y mestizaje étnico.
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/1200px-Flag_of_Venezuela.svg.png',
+      nombre: 'Venezuela',
+      localizacion: 'America del Sur',
+      capital: 'Caracas'
+    }
+  ">Ver más</ion-button>
+  </ion-card>
+  <ion-card>
+    <img alt="Paraguay" src="https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg" />
+    <ion-card-header>
+      <ion-card-title>Paraguay</ion-card-title>
+      <ion-card-subtitle>America del Sur</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Nombre Oficial: República del Paraguay. Superficie: 406.752 Km². Límites: País mediterráneo, situado en la zona centro-sur de Sudamérica, fronterizo con Brasil, Argentina y Bolivia. Capital: Asunción
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg',
+      nombre: 'Paraguay',
+      localizacion: 'America del Sur',
+      capital: 'Asunción'
+    }
+  ">Ver más</ion-button>
+
+  </ion-card>
+  <ion-card>
+    <img alt="Chile" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1200px-Flag_of_Chile.svg.png" />
+    <ion-card-header>
+      <ion-card-title>Chile</ion-card-title>
+      <ion-card-subtitle>America del Sur</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Chile, oficialmente República de Chile,​ es un país soberano ubicado en el extremo sur de América del Sur. Adopta la forma de gobierno republicana, democrática, unitaria y presidencialista.​ Su capital es la ciudad de Santiago.
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1200px-Flag_of_Chile.svg.png',
+      nombre: 'Chile',
+      localizacion: 'America del Sur',
+      capital: 'Santiago'
+    }
+  ">Ver más</ion-button>
+  </ion-card>
+  <ion-card>
+    <img alt="Brasil" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png" />
+    <ion-card-header>
+      <ion-card-title>Brasil</ion-card-title>
+      <ion-card-subtitle>America del Sur</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Brasil está ubicado en el este de América del Sur, con una superficie total de 8 511 965 km. a Brasil como quinto país en extensión y en población del mundo. Además, limita territorialmente con 10 países, solamente menos que Rusia y China (14 países), y tiene una de las mayores líneas costeras continuas, con 7491 km.
+    </ion-card-content>
+    <ion-button [routerLink]="['/paises']" [queryParams]="
+    {
+      imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png',
+      nombre: 'Chile',
+      localizacion: 'America del Sur',
+      capital: 'Santiago'
+    }
+  ">Ver más</ion-button>
+
+  </ion-card>
+</ion-content>

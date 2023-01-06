@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons [routerLink]="['/home']" slot="start">
+        <ion-back-button default-href="#"></ion-back-button>
+      </ion-buttons>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+<ion-list>
+
+  <ion-item>
+    <ion-label>Email</ion-label>
+    <ion-input type="email" placeholder="email@duocuc.cl"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Contraseña</ion-label>
+    <ion-input type="password" value="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+  <ion-button [routerLink]="['/home']">Volver</ion-button>
+
+</ion-content>

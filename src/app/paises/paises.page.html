@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+     <ion-buttons [routerLink]="['/lista']" slot="start">
+      <ion-back-button default-href="#"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Paises</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img alt="" src="{{ imagen }}" />
+    <ion-card-header>
+      <ion-card-title>{{ nombre }}</ion-card-title>
+      <ion-card-subtitle>{{ localizacion }}</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Capital: {{ capital }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
